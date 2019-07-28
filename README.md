@@ -1,2 +1,2 @@
-# icons
-Material UI icons
+# Material Icons
+Demo: https://tokyoshare.github.io/icons/
