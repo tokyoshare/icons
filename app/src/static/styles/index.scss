@@ -1,0 +1,30 @@
+// include another .scss file from a sub-directory
+@import "color";
+@import "./home-page.scss";
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, Arial, Meiryo, sans-serif;
+}
+
+.main {
+    min-height: calc(100vh - 100px);
+    margin: 0 auto;
+    background: white;
+    //padding: 50px;
+}
+
+.header-menu {
+    .menu {
+        width: 100%;
+        color: white;
+
+        .menu-link {
+            padding: 0 10px;
+            font-size: 16px;
+        }
+    }
+
+}

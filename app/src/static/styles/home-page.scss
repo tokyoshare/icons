@@ -1,0 +1,74 @@
+.home-page{
+    .tabs{
+        .tab-content{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            .categories{
+                display: grid;
+                grid-gap: 25px;
+                grid-template-columns: 12% 12% 12% 12% 12% 12% 12%;
+                font-size: 50px;
+                width: 100%;
+                text-align: center;
+                max-height: calc(100vh - 200px);
+                overflow: hidden;
+                overflow-y: auto;
+                .icon{
+                    cursor: pointer;
+                }
+                .icon:hover{
+                    color: #808080;
+                }
+                .icon-selected{
+                    color: #0040f8
+                }
+
+                &::-webkit-scrollbar {
+                    width: 0px;  /* Remove scrollbar space */
+                    background: transparent;  /* Optional: just make scrollbar invisible */
+                }
+                /* Optional: show position indicator in red */
+                &::-webkit-scrollbar-thumb {
+                    background: #FF0000;
+                }
+
+                .icon_name{
+                    font-size: 12px !important;
+                }
+
+                .icon{
+                    font-size: inherit !important;
+                }
+            }
+
+            .selected-icon-panel{
+                padding: 5px;
+                //max-height: calc(100vh - 150px);
+                // overflow: hidden;
+                // overflow-y: scroll;
+                
+                // &::-webkit-scrollbar {
+                //     width: 0px;  /* Remove scrollbar space */
+                //     background: transparent;  /* Optional: just make scrollbar invisible */
+                // }
+                // /* Optional: show position indicator in red */
+                // &::-webkit-scrollbar-thumb {
+                //     background: #FF0000;
+                // }
+                .title{
+                    padding-top:10px;
+                    padding-bottom: 5px;
+                    font-weight: bold;
+                }
+                .code-block{
+                    background: black;
+                    color: wheat;
+                    padding: 10px;
+                }
+                
+            }
+
+            
+        }
+    }
+}
