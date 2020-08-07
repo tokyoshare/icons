@@ -23,7 +23,7 @@
     "mime-types": "^2.1.18",
     "moment": "^2.21.0",
     "papaparse": "^4.3.6",
-    "prismjs": "^1.17.1",
+    "prismjs": "^1.21.0",
     "prop-types": "^15.6.0",
     "rc-pagination": "^1.20.1",
     "react": "^16.1.0",
