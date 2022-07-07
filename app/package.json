@@ -21,7 +21,7 @@
     "lodash": "^4.17.5",
     "mime": "^2.2.0",
     "mime-types": "^2.1.18",
-    "moment": "^2.21.0",
+    "moment": "^2.29.4",
     "papaparse": "^4.3.6",
     "prismjs": "^1.17.1",
     "prop-types": "^15.6.0",
